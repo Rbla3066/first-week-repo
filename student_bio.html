@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
 <title>Robert Black's Bio</title>
+<div>
 <header>
 	<img src="https://github.com/RutgersCodingBootcamp/All-Classwork-Homework/blob/master/week-1-html-css-git-heroku/in-class-exercises-1.2/RutgersBanner.png?raw=true" alt="Rutgers Coding Bootcamp">
 	<h1 class="coolstuff">Student Bio</h1>
 </header>
-<div>
 	<section>
 		<h2 class="coolstuff">Robert Black</h2>
-		<img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97200&w=200&h=200" alt="not yet">
+	</section>
+</div>
+<div>
+	<section>
+		<img id="image" src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97200&w=200&h=200" alt="not yet">
 		<p class="coolstuff">
 		Hello everyone! My name is Robert Black. I am 25 years old and live in Washington NJ. I am aspiring to be a web developer. I went to Raritan Valley Community College for a 2 year degree in Chemistry. In my spare time I like to take nature walks, play music, play video games, and code code code. I am particularly interested in the back end of Web developement. I am currently strongest at using Java and Ruby. After RCB I am considering continuing my studies in video game developement.
 		</p>
 	</section>
-	<section>
+</div>
+	<section id="contactinfo">
 		<h2 class="coolstuff" id="contact">Contact Info</h2>
 		<ul>
 			<li><b class="coolstuff">Email:</b> rbla4655@gmail.com</li>
@@ -38,9 +43,15 @@
 		margin:auto;
 	}
 
-	img {
-		margin: auto;
+	#image {
+		float:left;
 	}
 	#contact {
-		margin-top: 30px;
+		clear:both;
 	}
+	#contactinfo {
+		clear:both;
+		
+	}
+	</style>
+

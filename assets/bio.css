@@ -1,0 +1,24 @@
+	.coolstuff {
+		text-align: center;
+		color: red;
+		background-color: black;
+		border: 3px solid red;
+		margin:auto;
+	}
+
+	#image {
+		float:left;
+	}
+	#contact {
+		clear:both;
+	}
+	#contactinfo {
+		clear:both;
+		
+	}
+	.flow {
+		overflow: auto;
+	}
+	#name {
+		margin-bottom: 30px;
+	}
